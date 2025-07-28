@@ -1,19 +1,23 @@
 {
-    "name": "saintsystems/odata-client",
+    "name": "das-l/odata-v2-client",
     "version": "0.7.4",
-    "description": "Saint Systems OData Client for PHP",
+    "description": "OData v2 client, based on saintsystems/odata-client",
     "keywords": [
         "odata",
         "rest",
         "php"
     ],
-    "homepage": "https://github.com/saintsystems/odata-client-php",
+    "homepage": "https://github.com/das-l/odata-v2-client",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Saint Systems",
             "email": "contact@saintsystems.com"
+        },
+        {
+            "name": "Alex Wuttke",
+            "email": "alex@das-l.de"
         }
     ],
     "require": {

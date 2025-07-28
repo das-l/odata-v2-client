@@ -149,7 +149,7 @@ class ODataResponse
     public function getResponseAsObject($returnType)
     {
         $class = $returnType;
-        $result = $this->getBody();
+        $result = $this->getBody()['d'];
 
         //If more than one object is returned
         if (array_key_exists(Constants::ODATA_VALUE, $result)) {

@@ -28,7 +28,7 @@ class Constants
     // Values/Keys in OData Responses
     const ODATA_ID = '@odata.id';
     const ODATA_NEXT_LINK = '@odata.nextLink';
-    const ODATA_VALUE = 'value';
+    const ODATA_VALUE = 'results';
 
     // Default ODATA Paging
     const ODATA_MAX_PAGE_SIZE = 'odata.maxpagesize';

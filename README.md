@@ -1,14 +1,14 @@
+# Fork of saintsystems/odata-client that supports OData v2 instead of v4 – WORK IN PROGRESS
+
+The purpose of this fork is to implement OData v2 support. While basic requests are functional, the adaptation is still a work in progress and not ready for general production application.
+
+The rest of the README below is, for now, largely unchanged from the original repo.
+
 # Get started with the OData Client for PHP
 
 A fluent library for calling OData REST services inspired by and based on the [Laravel Query Builder](https://laravel.com/docs/5.4/queries).
 
-*This library is currently in preview. Please continue to provide [feedback](https://github.com/saintsystems/odata-client-php/issues/new) as we iterate towards a production-supported library.*
-
-[![Build Status](https://github.com/saintsystems/odata-client-php/actions/workflows/ci.yml/badge.svg)](https://github.com/saintsystems/odata-client-php/actions/workflows/ci.yml)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/saintsystems/odata-client)
-[![Total Downloads](https://img.shields.io/packagist/dt/saintsystems/odata-client.svg?style=flat-square)](https://packagist.org/packages/saintsystems/odata-client)
-
-For WordPress users, please see our [Gravity Forms Dynamics 365 Add-On](https://www.saintsystems.com/products/gravity-forms-dynamics-crm-add-on/).
+[![Build Status](https://github.com/das-l/odata-v2-client/actions/workflows/ci.yml/badge.svg)](https://github.com/das-l/odata-v2-client/actions/workflows/ci.yml)
 
 ## Install the SDK
 You can install the PHP SDK with Composer.
